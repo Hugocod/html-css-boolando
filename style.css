@@ -18,9 +18,21 @@ h6 {
 
 /* / general styles */
 
+header {
+  background-color: aquamarine;
+  height: 60px;
+}
+
 .wrapper {
   width: 900px;
+  height: 100%;
   margin: 0 auto;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .card-container {
@@ -50,7 +62,7 @@ h6 {
 .card__picture-6 {
   position: relative;
 
-  background-image: url(images/img/3b.webp);
+  background-image: url(images/img/1b.webp);
   background-size: cover;
   background-position: center;
 
@@ -101,6 +113,16 @@ h6 {
   align-items: center;
 }
 
+.logo {
+  height: 60px;
+  width: 400px;
+
+  background-image: url(./images/img/boolean-logo.png);
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .like img {
   width: 15px;
 }
@@ -120,4 +142,10 @@ h6 {
 
 .price h5 {
   display: inline-block;
+}
+
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
