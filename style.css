@@ -1,0 +1,123 @@
+/* general styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* / general styles */
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-row {
+  width: 100%;
+
+  display: flex;
+  gap: 15px;
+
+  margin-bottom: 40px;
+}
+
+.card {
+  height: 600px;
+  width: calc(100% / 3);
+}
+
+.card__picture-1,
+.card__picture-2,
+.card__picture-3,
+.card__picture-4,
+.card__picture-5,
+.card__picture-6 {
+  position: relative;
+
+  background-image: url(images/img/3b.webp);
+  background-size: cover;
+  background-position: center;
+
+  transition: all 0.4s ease-in-out;
+
+  height: 90%;
+}
+
+/* hover */
+
+.card__picture-1:hover {
+  background-image: url(images/img/6.webp);
+}
+.card__picture-2:hover {
+  background-image: url(images/img/6.webp);
+}
+.card__picture-3:hover {
+  background-image: url(images/img/6.webp);
+}
+.card__picture-4:hover {
+  background-image: url(images/img/6.webp);
+}
+.card__picture-5:hover {
+  background-image: url(images/img/6.webp);
+}
+.card__picture-6:hover {
+  background-image: url(images/img/6.webp);
+}
+
+/* hover */
+
+.card__description {
+  /* background-color: blueviolet; */
+  height: 10%;
+}
+
+.like {
+  width: 35px;
+  height: 35px;
+  background-color: brown;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.like img {
+  width: 15px;
+}
+
+.badge {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  background-color: brown;
+}
+
+.badge * {
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
+.price h5 {
+  display: inline-block;
+}
