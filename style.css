@@ -27,10 +27,21 @@ header {
   margin-bottom: 50px;
 
   color: white;
+
+  -webkit-box-shadow: 0px 8px 5px -3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 8px 5px -3px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  margin: 0 5px;
+}
+
+.icons i {
+  margin: 0 5px;
 }
 
 .wrapper {
-  width: 900px;
+  width: 1100px;
   height: 100%;
   margin: 0 auto;
 }
@@ -74,7 +85,7 @@ header .wrapper {
   transition: all 0.4s ease-in-out;
 }
 
-/* hover */
+/* card - hover */
 
 .card__picture-1 {
   background-image: url(images/img/1.webp);
@@ -114,11 +125,35 @@ header .wrapper {
   background-image: url(images/img/6b.webp);
 }
 
-/* hover */
+/* card - hover */
 
 .card__description {
   /* background-color: blueviolet; */
   height: 10%;
+}
+
+.card__description h2 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.card__description h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+
+  padding-top: 10px;
+}
+
+.price :first-child {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #ff0000;
+}
+
+.price :last-child {
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-decoration: line-through;
 }
 
 .like {
@@ -194,4 +229,13 @@ footer .wrapper {
 
 footer h4 {
   display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+footer h3 {
+  font-size: 1rem;
+  font-size: 1rem;
+
+  margin-bottom: 10px;
 }
